@@ -1,0 +1,55 @@
+body,div,h1,h2,h3,h4,span,img,a,i,em,dl,dd,dt,ul,li,input,textarea{margin: 0; padding: 0;}
+img{border: 0 none; }
+a{ text-decoration: none;}
+li{list-style: none;}
+input{border: 0 none;}
+.clearfix{*zoom:0;}
+.clearfix:after{display: block;visibility: hidden;clear: both;height: 0;content: 
+'.';}
+body{ width: 100%;height: 100%;background: black;}
+/*主体*/
+.main{ width: 908px;height: 671px; border-left: #d1d1d1 1px solid;border-right: #d1d1d1 1px solid; margin:100px auto 0;}
+#left{ width: 712px;height:100%; background:#fbfbfb ;border-right: #d1d1d1 1px solid; float: left;}
+#left h2{width: 696px; height:26px;font-size: 24px; padding:19px 0 6px 16px ; color: #3f3f3f; font-style: normal;}
+.l-main{width: 696px; height: auto;padding:17px 0 0 16px;  border-top: #d9d9d9 1px solid;}
+.l-main h4{font-size: 14px;color: #696969; line-height: 20px; font-weight: 500;}
+.l-main .txt1{ width:683px; height:41px; border: 1px solid #d1d1d1;}
+.l-main .txt2{ width:685px; height:276px; border-left:1px solid #ccc; background: #fff;border-right:1px solid #ccc; text-indent: 1em;}
+.photo {display: block; width: 78px; height: 39px; background: url('../images/spirit.png') top left no-repeat; margin: 23px 0 31px 0;}
+.choice{ width:679px; height:23px; padding:3px 0 0 6px; border: 1px solid #ccc;background: #fff; }
+.choice a{ display: block; width: 20px; height:18px; border: #fff 1px solid;line-height: 18px; float: left; text-align: center; margin-right: 2px;}
+.checked{  border: #5690d2 1px solid; background: #e9eff6;}
+.choice img{width:auto; height:auto; margin: 0 auto; }
+.choice span{ display: block;margin:0 5px 0 4px; width:1px; height:100%; float: left;}
+.foot{ width:685px; height:11px; border: 1px solid #ccc;}
+.foot i{ display: block; width: 17px; height: 11px; background: url("../images/spirit.png") no-repeat; background-position:-99px -60px;margin: 0 auto;}
+.f-main{ width: 697px; height:109px; position: relative;}
+.del,.true{display: block; width: 78px; height: 39px; background: url('../images/spirit.png') no-repeat; position: absolute; top:25px;}
+.del {background-position: -99px 0;  left: 10px;}
+.true {background-position: -199px 0; right: 19px;}
+.know,.commit{display: inline-block; height: 18px; position: absolute; top:38px;font-size: 12px;}
+.know{color: #000; right:266px;}
+.f-main ul{ width: 61px; height: 22px; position: absolute; right: 122px; bottom: 50px; border: 1px solid #cdcdcd; overflow: hidden;}
+.f-main ul a{ display: block;line-height: 22px; height: 22px; text-align: center; color: #000000;}
+.f-main ul a:hover{ background:#cdcdcd; }
+.li1{line-height: 22px; height: 22px;}
+.first{ display: block; width:12px;height: 7px ; margin:8px 4px 0 0;float: right;background: url("../images/spirit.png"); background-position: -142px -59px; }
+.commit{ color: red; right:200px;}
+
+#right{width: 188px;height:100%;background: #e3e3e3;float: left; padding-left: 6px; }
+.set{ width: 185px; height: 207px; padding:31px 0 0 4px;}
+.set label{ display: block; width:auto; height:18px;  text-align: center; margin-bottom: 17px; cursor: pointer;}
+.set input{ width: 11px; height:11px; float: left; margin-right: 11px;}
+.set span{ display:block;width:auto; font-size: 12px; float: left; color: #000;}
+.current{ background: #000;}
+#right h4{ width: auto; height: 26px;line-height: 26px; color: #7f7f7f; font-size: 13px;padding-left: 6px; }
+.txt3{ width:171px; height: 28px; border: 1px solid #bcbcbc; margin-bottom: 8px; background: #fff; line-height: 28px; padding-left: 9px; font-size: 12px; color: #dedede;}
+.r-main{ width:181px;border: 1px solid #bcbcbc;background: #fff; }
+.r-main ul{ padding: 8px 0 20px 4px; width: 167px; height: auto;}
+.r-main li{ display: inline-block; width: auto; height:20px; padding:8px 26px 0 4px; float: left; position: relative; font-size: 12px; color: #fff;  background: #c2e2ee; margin:0 3px 4px 0;}
+.r-main i{ font-style: normal; display: block; width: 15px; height: 15px; text-align: center; line-height: 15px; position: absolute; top:10px; right: 2px; background: url("../images/spirit.png") no-repeat; background-position: -15px -52px;}
+.r-main dl{ width: 175px; height: auto; border-top:1px dashed #bcbcbc; padding-left: 6px; }
+.r-main dt{ height: 32px; line-height: 32px; font-size: 12px; color: #8f8f8f; margin-bottom: 4px;}
+.r-main a{ display: inline-block; height: 24px; width: auto;float: left; line-height: 24px; text-align: center; background: #e1ecf4; border: 3px solid #f4f9fc; margin-bottom: 2px; color: #518ca8; font-size: 12px; padding: 0 8px;}
+.r-main a:hover{ background: #c2e2ee;}
+
